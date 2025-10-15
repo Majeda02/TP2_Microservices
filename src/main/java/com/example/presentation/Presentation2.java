@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = {"com.example.dao", "com.example.metier"})
+@ComponentScan(basePackages = {"dao", "metier"})
 public class Presentation2 {
     public static void main(String[] args) {
         // Création du contexte Spring avec activation du profil "dev"
